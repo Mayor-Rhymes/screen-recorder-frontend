@@ -27,7 +27,7 @@ export default function Hero() {
             Show Them
           </motion.p>
           <motion.p className="text-[64px] font-[700] leading-[64px]">
-            Don't Just Tell
+            {"Don't Just Tell"}
           </motion.p>
         </motion.div>
 
