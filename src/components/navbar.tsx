@@ -75,7 +75,7 @@ export default function Navbar() {
             Features
           </Link>
           <Link
-            href="/"
+            href="#howitworks"
             className="hover:scale-150 duration-300 delay-150 ease-in-out"
           >
             How it works
