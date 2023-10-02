@@ -16,16 +16,16 @@ export default function Footer() {
         damping: 20,
         staggerChildren: 4,
       }}
-      className="bg-[#120B48] h-[347px] flex justify-evenly items-center px-10"
+      className="bg-[#120B48] lg:h-[374px] py-10 gap-20 flex flex-col lg:flex-row lg:justify-evenly items-center px-10"
     >
-      <motion.div className="flex items-center gap-4">
+      <motion.div className="flex items-center  gap-4">
         <Image src={logoFooter} alt="logo" />
         <Link href="/" className="text-[16px] font-[700] text-white">
           HelpMeOut
         </Link>
       </motion.div>
 
-      <motion.div className="flex flex-col gap-5 text-white">
+      <motion.div className="flex flex-col items-center gap-5 text-white">
         <Link href="/" className="font-bold">
           Menu
         </Link>
@@ -34,7 +34,7 @@ export default function Footer() {
         <Link href="/">How it works</Link>
       </motion.div>
 
-      <motion.div className="flex flex-col gap-5 text-white">
+      <motion.div className="flex flex-col items-center gap-5 text-white">
         <Link href="/" className="font-bold">
           About us
         </Link>
@@ -43,7 +43,7 @@ export default function Footer() {
         <Link href="/">Privacy Policy</Link>
       </motion.div>
 
-      <motion.div className="flex flex-col gap-5 text-white">
+      <motion.div className="flex flex-col items-center gap-5 text-white">
         <Link href="/" className="font-bold">
           Screen Record
         </Link>

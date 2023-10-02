@@ -1,0 +1,16 @@
+
+// import { useState, forwardRef, SVGProps } from "react"
+// import { motion } from "framer-motion"
+
+
+// interface LucideProps extends SVGProps<any> {
+
+// }
+// export default function Lucide(props: LucideProps) {
+    
+//     useRef = 
+//     const LucideComponent = forwardRef((props, ref)) => {
+    
+//         <
+//     }
+// }

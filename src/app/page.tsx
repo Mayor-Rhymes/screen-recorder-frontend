@@ -6,6 +6,7 @@ import Hero from "@/components/hero";
 import Features from "@/components/features";
 import HowItWorks from "@/components/how-it-works";
 import Footer from "@/components/footer";
+import Spacer from "@/components/spacer";
 
 export default function Home() {
   // const { scrollYProgress } = useScroll();
@@ -16,10 +17,13 @@ export default function Home() {
 
       <Hero />
 
+      <Spacer />
+
       <Features />
 
+      <Spacer />
       <HowItWorks />
-
+      
       <Footer />
     </motion.main>
   );

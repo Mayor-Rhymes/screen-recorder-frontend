@@ -10,7 +10,7 @@ export default function Features() {
   
   return (
     <motion.div
-    
+      id="features"
       initial={{ opacity:0, scale: 0, translateY: -10 }}
     //   animate={{ translateY: 0, scale: 1 }}
       whileInView={{opacity: 1, scale: 1, translateY: 0}}
@@ -21,14 +21,14 @@ export default function Features() {
         damping: 20,
         staggerChildren: 4,
       }}
-      className="flex flex-col gap-20 py-5"
+      className="flex flex-col gap-20 py-5 bg-white"
     >
       <motion.div className="flex flex-col items-center gap-2">
         <h4 className="text-[#141414] text-2xl font-[700]">Features</h4>
         <p className="text-md text-gray-400">Key Highlights Of Our Extension</p>
       </motion.div>
 
-      <motion.div className="flex px-20 gap-10 items-center">
+      <motion.div className="flex flex-col lg:flex-row px-20 gap-10 items-center">
         <motion.div className="flex flex-col gap-10">
           <FeatureItem
             icon={record}

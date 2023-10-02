@@ -7,6 +7,7 @@ import three from "/public/three.svg";
 export default function HowItWorks() {
   return (
     <motion.div
+      id="howitworks"
       initial={{ opacity: 0, scale: 0, translateY: -10, translateX: -5 }}
       whileInView={{ opacity: 1, scale: 1, translateY: 0, translateX: 0 }}
       viewport={{ once: false }}
@@ -16,12 +17,12 @@ export default function HowItWorks() {
         damping: 20,
         staggerChildren: 4,
       }}
-      className="py-20 flex flex-col gap-10"
+      className="py-20 flex flex-col gap-10 bg-white"
     >
       <h4 className="text-[#141414] text-2xl font-[700] text-center">
         How it works
       </h4>
-      <motion.div className="flex justify-center gap-10 px-10">
+      <motion.div className="flex flex-col lg:flex-row justify-center gap-10 px-10">
         <HowItem
           icon={one}
           title="Record Screen"
